@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ScrumTeam.AppHost/ScrumTeam.AppHost.csproj" />
+  <Project Path="ScrumTeam.Server/ScrumTeam.Server.csproj" />
+</Solution>

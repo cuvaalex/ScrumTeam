@@ -1,0 +1,18 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.1.0">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UserSecretsId>2fab997a-4d3e-4285-9c1b-f79451fdfa94</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\ScrumTeam.Server\ScrumTeam.Server.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Aspire.Hosting.JavaScript" Version="13.1.0"/>
+    </ItemGroup>
+</Project>
